@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-// Download Nuget packet Name FireSharp.Serialization.JsonNet.Core
+//  Download Nuget packet Name FireSharp.Serialization.JsonNet.Core
 // nuget reference for FireSharp.Serialization.JsonNet.Core
 using FireSharp.Config; // Config the C# Connection to Firebase
 using FireSharp.Interfaces;//
@@ -20,7 +20,7 @@ namespace Demo_
 {
     public partial class Form1 : Form
     {
-        // Database Connection Path and Authenticaiton.
+        //   Database Connection Path and Authenticaiton.
         IFirebaseConfig config = new FirebaseConfig
         {   
             // AuthSecret from Database secrets 
